@@ -1,0 +1,26 @@
+{
+  "name": "punacademy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FazinHan/punacademy.git"
+  },
+  "author": "FMJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FazinHan/punacademy/issues"
+  },
+  "homepage": "https://github.com/FazinHan/punacademy#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
