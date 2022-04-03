@@ -1,30 +1,35 @@
 @charset "utf-8";
 *{
-	margin-left:auto;
-	margin-right:auto;
+	margin:0px;
 }
 body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 .m30_auto{ margin:0px auto;}
 .main{ width:100%;}
 .clearfix{ clear:both;}
-@media screen and (max-width:500px){
+@media (max-width:767px){
     img{width:50px; height:50px}
-    .header-right ul li{list-style:none; font-family:arial; font-size:2px; padding:5px 0px 5px 0px; 
-        margin-left:auto;float:left; font-weight:bold;}
-    .header{width:100%; float:left;margin-top: 6px; background:#ffffff;}
-    .header-right{width:300px; float:left;}
+    .header-left{width:50px;display:inline-block;margin-left: 10px;vertical-align: middle;}
+    .header-right{width:auto; float :right;margin:10px}
+    .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
+    .header-right{width:100px; float:right;}
+}
+
+@media (max-width:692px){
+    img{display:none;}
+    .header-right{width:100%;justify-content: center;}
+    .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
 }
 
 
 /*********** Start Header (or) Menu **********/
-.header{width:100%; float:left;margin-top: 5px; background:#ffffff;}
-.header-left{ width:220px; float:left;}
-.header-right{ 	width:750px; float:left;}
+.header{width:100%; float:left; background:#ffffff;}
+.header-left{ width:auto; vertical-align: middle;}
+.header-right{ 	width:auto; float:right;vertical-align: middle;}
 .header-right ul{list-style:none;}
 .header-right ul li{
     
 	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
-	margin-left:auto;float:left; font-weight:bold;margin-top:2%;
+	float:left; font-weight:bold;text-align: center;
 }
 .header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:rgb(0, 0, 0);}
 .header-right ul li a:hover{ color:#0099dd;}
