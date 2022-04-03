@@ -17,7 +17,8 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 
 
 /*********** Start Header (or) Menu **********/
-.header{width:100%; float:left;margin-top: 5px; background:#ffffff;}
+.header{width:100%; min-height:50vh; background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(resources/banner.png);
+background-position: center;background-size: cover;position: relative;}
 .header-left{ width:220px; float:left;}
 .header-right{ 	width:750px; float:left;}
 .header-right ul{list-style:none;}
