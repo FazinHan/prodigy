@@ -24,7 +24,7 @@ main {
     justify-content: center;
     height: 78%;
     width: 100%;
-    background: url(https://images.unsplash.com/photo-1490791539531-102a1e0beb7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat ,center ,center;
+    background: url() no-repeat ,center ,center;
     background-size: cover;
     background-position: center;
 }
