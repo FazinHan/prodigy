@@ -7,9 +7,9 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 .main{ width:100%;}
 .clearfix{ clear:both;}
 @media (max-width:767px){
-    img{width:50px; height:50px}
+    img{width:50px; height:50px;margin-top: 5px;}
     .header-left{width:50px;display:inline-block;margin-left: 10px;vertical-align: middle;}
-    .header-right{width:auto; float :right;margin:10px}
+    .header-right{width:auto; float :right;margin:10px;margin-top: 0px;}
     .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
     .header-right{width:100px; float:right;}
 }
@@ -23,8 +23,8 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 
 /*********** Start Header (or) Menu **********/
 .header{width:100%; float:left; background:#ffffff;}
-.header-left{ width:auto; vertical-align: middle;}
-.header-right{ 	width:auto; float:right;vertical-align: middle;}
+.header-left{ width:auto; vertical-align: middle;display: inline-block;}
+.header-right{ 	width:auto; float:right;vertical-align: middle;margin-top: 2%;}
 .header-right ul{list-style:none;}
 .header-right ul li{
     
@@ -36,7 +36,7 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 /*********** End Header (or) Menu **********/
 	
 /************* Start Slider (or) Banner *************/
-.banner{ width:1024px; background:url(../Resources/slider-bg.jpg); height:293px; float:left; }
+.banner{ width:1024px; background:url(../Resources/banner.png); height:293px;display: flex;margin: auto;}
 .banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
 .banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:#FFF; font-weight:600;}
 .banner-links a:hover{ color:#000;}
