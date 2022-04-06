@@ -24,7 +24,7 @@ main {
     justify-content: center;
     height: 78%;
     width: 100%;
-    background: url(https://images.unsplash.com/photo-1490791539531-102a1e0beb7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80) no-repeat ,center ,center;
+    background: url(../Resources/loginbg.jpg) no-repeat ,center ,center;
     background-size: cover;
     background-position: center;
 }
@@ -62,9 +62,10 @@ main {
     letter-spacing: 2px;
 }
 .submit_class {
-    border-style: none;
+    border-style:initial;
+    border-color: black;
     border-radius: 5px;
-    background-color: #FFE6D4;
+    background-color: #15edf5;
     padding: 8px 20px;
     font-family: 'system-ui';
     text-transform: uppercase;
