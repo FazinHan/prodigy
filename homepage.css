@@ -7,6 +7,7 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 .main{ width:100%;}
 .clearfix{ clear:both;}
 @media (max-width:767px){
+
     img{width:50px; height:50px;margin-top: 5px;}
     .header-left{width:50px;display:inline-block;margin-left: 10px;vertical-align: middle;}
     .header-right{width:auto; float :right;margin:10px;margin-top: 0px;}
@@ -21,7 +22,9 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 }
 
 
+
 /*********** Start Header (or) Menu **********/
+
 .header{width:100%; float:left; background:#ffffff;}
 .header-left{ width:auto; vertical-align: middle;display: inline-block;}
 .header-right{ 	width:auto; float:right;vertical-align: middle;margin-top: 2%;}
@@ -31,22 +34,23 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
 	float:left; font-weight:bold;text-align: center;
 }
-.header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:rgb(0, 0, 0);}
+.header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:#FFF;}
 .header-right ul li a:hover{ color:#0099dd;}
 /*********** End Header (or) Menu **********/
 	
 /************* Start Slider (or) Banner *************/
+
+
 .banner{ width:1024px; background:url(../Resources/banner.png); height:293px;display: flex;margin: auto;}
+
 
 /************** End Slider (or) Banner *************/
 
 /*************** Start Content *****************/	
-.content{ width:1022px; height:auto; border:1px solid #CCC; float:left; padding-bottom:20px;}
-.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
-.content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
-.content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
-.content-header a{ color:#0099dd; text-decoration:none;}
-.content-header a:hover{ color:#069;}
+.content{ width: 80%; margin:auto; border:1px solid #CCC; text-align:center; padding-top:100px;}
+
+ .h1{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
+ .p{color:#777; font-size: 100px;font-weight: 300; padding:0px 20px; line-height:24px;}
 
 .content-bottom-boxes{ width:300px; float:left; padding:15px 20px; color:#000;}
 .content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
@@ -55,21 +59,21 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 /************ End Content **************/
 
 /************ Start Testimonials ************/
-.testimonials{ width:1024px; background:url(../Resources/testimonials-bg.jpg); height:309px; float:left; }
+.testimonials{ width:100%; background:url(../Resources/testimonials-bg.jpg); height:309px; float:left; }
 .testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color:#FFF; text-align:center;}
 .testimonials a{ color:#CCC; font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
 .testimonials a:hover{ color:#FFF;}
 /************ End Testimonials ************/
 
 /************ Start Footer *****************/
-#footer{ width:1024px; float:left; background:#CCC;}
-.footer-parts{ width:300px; float:left; padding:0px 20px;}
+#footer{ width:100%; float:left; background:#CCC;}
+.footer-parts{ width:300px; float:left; padding:0px 100px;}
 .footer-parts-h4{ font-size:18px; padding:15px 10px 0px;}
 .footer-parts ul{list-style:none; padding:0px;}
 .footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
 .footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
 .footer-parts ul li a:hover{color:#FFF;}
-.copyrights{ width:964px; font-size:12px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; }
+.copyrights{ width:100%; font-size:12px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; }
 .copyrights-left{ width:664px; float:left;}
 .copyrights-left a{ color:#FFF; text-decoration:none;}
 .copyrights-left a:hover{color:#CCC;}
