@@ -1,7 +1,6 @@
 @charset "utf-8";
 *{
-	margin-left:auto;
-	margin-right:auto;
+	margin:0px;
 }
 body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 .m30_auto{ margin:0px auto;}
@@ -9,9 +8,9 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 .clearfix{ clear:both;}
 @media (max-width:767px){
 
-    img{width:50px; height:50px}
+    img{width:50px; height:50px;margin-top: 5px;}
     .header-left{width:50px;display:inline-block;margin-left: 10px;vertical-align: middle;}
-    .header-right{width:auto; float :right;margin:10px}
+    .header-right{width:auto; float :right;margin:10px;margin-top: 0px;}
     .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
     .header-right{width:100px; float:right;}
 }
@@ -20,32 +19,31 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
     img{display:none;}
     .header-right{width:100%;justify-content: center;}
     .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
-
 }
 
 
 
 /*********** Start Header (or) Menu **********/
-.header{width:100%; min-height:50vh; background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(resources/banner.png);
-background-position: center;background-size: cover;position: relative;}
-.header-left{ width:220px; float:left;}
-.header-right{ 	width:750px; float:left;}
+
+.header{width:100%; float:left; background:#ffffff;}
+.header-left{ width:auto; vertical-align: middle;display: inline-block;}
+.header-right{ 	width:auto; float:right;vertical-align: middle;margin-top: 2%;}
 .header-right ul{list-style:none;}
 .header-right ul li{
     
 	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
-	margin-left:auto;float:left; font-weight:bold;margin-top:2%;
+	float:left; font-weight:bold;text-align: center;
 }
 .header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:#FFF;}
 .header-right ul li a:hover{ color:#0099dd;}
 /*********** End Header (or) Menu **********/
 	
 /************* Start Slider (or) Banner *************/
-.banner{ width:100%; background-image:url(resources/slider-bg.jpg); height:50%; background-position: center;background-size: cover;position: relative;  }
-.banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
-.banner-links{ font-family:Arial, Helvetica, sans-serif; padding:145px 20px 50px;}
-.banner-links a{font-size:26px; padding:0px 20px; text-decoration:none; color:#FFF; font-weight:600;}
-.banner-links a:hover{ color:#000;}
+
+
+.banner{ width:1024px; background:url(../Resources/banner.png); height:293px;display: flex;margin: auto;}
+
+
 /************** End Slider (or) Banner *************/
 
 /*************** Start Content *****************/	
