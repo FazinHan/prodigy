@@ -4,7 +4,6 @@
 }
 body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 .m30_auto{ margin:0px auto;}
-.main{ width:100%;}
 .clearfix{ clear:both;}
 @media (max-width:767px){
 
@@ -34,76 +33,47 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
 	float:left; font-weight:bold;text-align: center;
 }
-.header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:#FFF;}
+.header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:black;}
 .header-right ul li a:hover{ color:#0099dd;}
 /*********** End Header (or) Menu **********/
 	
 /************* Start Slider (or) Banner *************/
-<<<<<<< Updated upstream
-
-
-.banner{ width:1024px; background:url(../Resources/banner.png); height:293px;display: flex;margin: auto;}
-=======
 .banner{ width:100%; background:url(../Resources/banner.png) no-repeat center center; height:293px;display: flex;margin: auto;}
->>>>>>> Stashed changes
 
 
 /************** End Slider (or) Banner *************/
 
 /*************** Start Content *****************/	
-<<<<<<< Updated upstream
-.content{ width: 80%; margin:auto; border:1px solid #CCC; text-align:center; padding-top:100px;}
-
- .h1{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
- .p{color:#777; font-size: 100px;font-weight: 300; padding:0px 20px; line-height:24px;}
-=======
-.content{ width:100%; height:auto; padding-bottom:20px;}
-.content-left{ width:458px; height:auto; float:left; text-align:justify; padding:0px 20px; line-height:24px;}
-.content-right{ width:440px; height:auto; float:left; padding:0px 20px 0px 60px;}
+.content{ width:90%; height:auto; padding-bottom:20px; margin:auto;}
+.content-left{ width:40%; height:auto; text-align:justify; padding:0px 20px; line-height:24px; flex:1; display:flex;}
+.content-right{ width:40%; height:auto; flex:1; display:flex; margin-left:3%;}
 .content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
 .content-header a{ color:#0099dd; text-decoration:none;}
 .content-header a:hover{ color:#069;}
->>>>>>> Stashed changes
 
-.content-bottom-boxes{ width:350px; float:left; padding:15px 20px; color:#000;}
+.content-bottom-boxes{ width:350px; padding:15px 20px; color:#000; flex-direction:column; display:flex;}
 .content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
 .content-bottom-bg-header{ text-align:center;font-size:18px; padding-bottom:15px;}
 .content-bottom-bg-p{ line-height:24px;}
 /************ End Content **************/
 
 /************ Start Testimonials ************/
-<<<<<<< Updated upstream
-.testimonials{ width:100%; background:url(../Resources/testimonials-bg.jpg); height:309px; float:left; }
-.testimonials-h4{ font-size:26px; line-height:46px; padding:80px 100px; color:#FFF; text-align:center;}
-=======
 .testimonials{ width:100%;display:flex;margin: auto; background:url(../Resources/testimonials-bg.jpg) no-repeat center center; height:309px; float:left; }
 .testimonials-h4{ margin: auto;font-size:22px; padding:80px 100px; color:#FFF; text-align:center;}
->>>>>>> Stashed changes
 .testimonials a{ color:#CCC; font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
 .testimonials a:hover{ color:#FFF;}
 /************ End Testimonials ************/
 
 /************ Start Footer *****************/
-<<<<<<< Updated upstream
-#footer{ width:100%; float:left; background:#CCC;}
-.footer-parts{ width:300px; float:left; padding:0px 100px;}
-.footer-parts-h4{ font-size:18px; padding:15px 10px 0px;}
-=======
 #footer{ width:100%; float:left;text-align: center; background:#CCC;}
 .footer-parts{ width:30%;margin-top: 1px;margin-bottom: 15px; float:left; padding:0px 20px;}
 .footer-parts-h4{ font-size:22px; padding:15px 10px 0px;}
->>>>>>> Stashed changes
 .footer-parts ul{list-style:none; padding:0px;}
 .footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
 .footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
 .footer-parts ul li a:hover{color:#FFF;}
-<<<<<<< Updated upstream
-.copyrights{ width:100%; font-size:12px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; }
-.copyrights-left{ width:664px; float:left;}
-=======
-.copyrights{ width:100%; font-size:18px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; text-align: center;}
+.copyrights{ width:96%; font-size:18px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; text-align: center;}
 .copyrights-left{ width:50%; float:left;}
->>>>>>> Stashed changes
 .copyrights-left a{ color:#FFF; text-decoration:none;}
 .copyrights-left a:hover{color:#CCC;}
 .copyrights-right{ width:50%; float:right;}
