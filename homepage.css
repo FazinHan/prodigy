@@ -47,7 +47,7 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 
 /*************** Start Content *****************/	
 .content{ width:100%; height:auto; padding-bottom:20px; margin:auto;}
-.content-left{ width:40%; height:auto; text-align:justify;margin-top: 25px; vertical-align: center;padding-top: 1.5%; line-height:24px; flex:1; display:flex;}
+.content-left{ width:40%;  text-align:justify;margin-top: 15px; vertical-align: center;padding-top: 1.5%; line-height:24px;}
 .content-right{ width:40%; height:auto; flex:1; display:flex; margin-left:3%;}
 .content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
 .content-header a{ color:#0099dd; text-decoration:none;}
