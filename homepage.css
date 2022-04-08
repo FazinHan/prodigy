@@ -15,6 +15,8 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 }
 
 @media (max-width:692px){
+    .footer-parts{ width:30%;margin-top: 10px;margin-bottom: 15px;display:inline-flex;padding:0px 15px;}
+
     img{display:none;}
     .header-right{width:100%;justify-content: center;}
     .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
@@ -22,7 +24,7 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 
 
 
-/*********** Start Header (or) Menu **********/
+/*********** Start Menu **********/
 
 .header{width:100%; float:left; background:#ffffff;}
 .header-left{ width:auto; vertical-align: middle;display: inline-block;}
@@ -35,17 +37,17 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 }
 .header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:black;}
 .header-right ul li a:hover{ color:#0099dd;}
-/*********** End Header (or) Menu **********/
+/*********** End Menu **********/
 	
-/************* Start Slider (or) Banner *************/
+/************* Start Banner *************/
 .banner{ width:100%; background:url(../Resources/banner.png) no-repeat center center; height:293px;display: flex;margin: auto;}
 
 
-/************** End Slider (or) Banner *************/
+/************** End Banner *************/
 
 /*************** Start Content *****************/	
-.content{ width:90%; height:auto; padding-bottom:20px; margin:auto;}
-.content-left{ width:40%; height:auto; text-align:justify;margin-top: 25px; padding:0px 20px; line-height:24px; flex:1; display:flex;}
+.content{ width:100%; height:auto; padding-bottom:20px; margin:auto;}
+.content-left{ width:40%;  text-align:justify;margin-top: 15px; vertical-align: center;padding-top: 1.5%; line-height:24px;}
 .content-right{ width:40%; height:auto; flex:1; display:flex; margin-left:3%;}
 .content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
 .content-header a{ color:#0099dd; text-decoration:none;}
@@ -66,7 +68,7 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 
 /************ Start Footer *****************/
 #footer{ width:100%; float:left;text-align: center; background:#CCC;}
-.footer-parts{ width:30%;margin-top: 1px;margin-bottom: 15px; float:left; padding:0px 20px;}
+.footer-parts{ width:30%;margin-top: 10px;margin-bottom: 15px;float:left;padding:0px 15px;}
 .footer-parts-h4{ font-size:22px; padding:15px 10px 0px;}
 .footer-parts ul{list-style:none; padding:0px;}
 .footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
