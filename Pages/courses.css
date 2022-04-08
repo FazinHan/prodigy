@@ -14,57 +14,33 @@ h1 {
     text-align: center;
     margin:5px;
 }
+.header-right{
+    width: auto;
+    text-align: left;
+}
 
 
-#container {
-	max-width: 100%;
-	margin: 0 auto;
-	padding-top: 20px;
+.container {
+	display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.box:hover{
-    border-color: yellow;
-}
-.box {
-	border: 2px solid transparent;
+
+
+.container .box {
 	width: 30%;
-	background-color: black;
-	padding-bottom: 25%;
-    float:left ;
-	margin: 1.5%;
-    box-shadow: 0px 10px 10px black;
-	transition-duration: 0.6s;
-	margin-top: 5%;
-	border-radius: 20%;
-	
-} 
-@media(max-width:1300px){
-    .box {
-        border: 2px solid transparent;
-        width: 40%;
-        height:20%;
-        background-color: rgb(0, 204, 255);
-        padding-bottom: 25%;
-        float: left;
-        margin: 4.5%;
-        transition-duration: 0.6s;
-        margin-top: 5%;
-        border-radius: 20%;
-        
-    } 
-}
+	border: 1 rem solid rgba(0,0,0,.3);
+    position: relative;
+    margin: 1.5rem;
 
-@media(max-width:500px){
-    .box {
-        border: 2px solid transparent;
-        width: 80%;
-        height:40%;
-        background-color: rgb(255, 0, 0);
-        padding-bottom: 25%;
-        float: initial;
-        margin: auto;
-        transition-duration: 0.6s;
-        margin-top: 5%;
-        border-radius: 20%;
-        
-    } 
+} 
+.container .box img{
+    height:20rem;
+    width: 100%;
+    object-fit: cover;
+}
+.container .box h2{
+    color: blue;
+    text-align: center;
 }
