@@ -54,9 +54,9 @@ body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
 .content-header a:hover{ color:#069;}
 
 .content-bottom-boxes{ width:350px; padding:15px 20px; color:#000; flex-direction:column; display:flex;}
-.content-bottom-bg{ background:#ebebeb; float:left; padding:20px 15px;}
+.content-bottom-bg{ background:#ebebeb; padding:20px 15px;}
 .content-bottom-bg-header{ text-align:center;font-size:18px; padding-bottom:15px;}
-.content-bottom-bg-p{ line-height:24px;}
+.content-bottom-bg-p{ text-align:center; line-height:24px;}
 /************ End Content **************/
 
 /************ Start Testimonials ************/
