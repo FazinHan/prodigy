@@ -1,0 +1,46 @@
+header {
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    text-decoration: double;
+    box-shadow: 10px 10px 20px rgba(58,57,57);
+}
+h1 {
+    letter-spacing: 1.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin:5px;
+}
+.header-right{
+    width: auto;
+    text-align: left;
+}
+
+
+.container {
+	display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.container .box {
+	width: 30%;
+	border: 1 rem solid rgba(0,0,0,.3);
+    position: relative;
+    margin: 1.5rem;
+
+} 
+.container .box img{
+    height:20rem;
+    width: 100%;
+    object-fit: cover;
+}
+.container .box h2{
+    
+    text-align: center;
+}
