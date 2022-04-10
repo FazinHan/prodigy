@@ -1,6 +1,5 @@
 header {
     background-color:black;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,8 +12,12 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin:5px;
+    color:white;
 }
-.header-right a { 
+h2{
+    color: blue;
+}
+.header-right ul li a { 
     padding:5px 30px 10px;
     margin:1px 0px 5px; 
     text-decoration:none;
@@ -22,9 +25,11 @@ h1 {
     font-family:arial; 
     font-size:14px;
     float: left;
+   justify-self: center;
 }
-.header-right a :hover{ 
+.header-right ul li :hover{ 
     color:#0099dd;
+
 }
 
 
