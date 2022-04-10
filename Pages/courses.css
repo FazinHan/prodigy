@@ -14,7 +14,7 @@ h1 {
     text-align: center;
     margin:5px;
 }
-.header-right ul li a{ 
+.header-right a { 
     padding:5px 30px 10px;
     margin:1px 0px 5px; 
     text-decoration:none;
@@ -23,7 +23,7 @@ h1 {
     font-size:14px;
     float: left;
 }
-.header-right ul li a:hover{ 
+.header-right a :hover{ 
     color:#0099dd;
 }
 
