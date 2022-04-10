@@ -14,9 +14,17 @@ h1 {
     text-align: center;
     margin:5px;
 }
-.header-right{
-    width: auto;
-    text-align: left;
+.header-right ul li a{ 
+    padding:5px 30px 10px;
+    margin:1px 0px 5px; 
+    text-decoration:none;
+    color:white;
+    font-family:arial; 
+    font-size:14px;
+    float: left;
+}
+.header-right ul li a:hover{ 
+    color:#0099dd;
 }
 
 
