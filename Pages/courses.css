@@ -1,0 +1,54 @@
+header {
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13vh;
+    text-decoration: double;
+    box-shadow: 10px 10px 20px rgba(58,57,57);
+}
+h1 {
+    letter-spacing: 1.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin:5px;
+}
+.header-right a { 
+    padding:5px 30px 10px;
+    margin:1px 0px 5px; 
+    text-decoration:none;
+    color:white;
+    font-family:arial; 
+    font-size:14px;
+    float: left;
+}
+.header-right a :hover{ 
+    color:#0099dd;
+}
+
+
+.container {
+	display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.container .box {
+	width: 30%;
+	border: 1 rem solid rgba(0,0,0,.3);
+    position: relative;
+    margin: 1.5rem;
+
+} 
+.container .box img{
+    height:20rem;
+    width: 100%;
+    object-fit: cover;
+}
+.container .box h2{
+    
+    text-align: center;
+}

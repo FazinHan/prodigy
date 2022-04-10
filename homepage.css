@@ -1,0 +1,84 @@
+@charset "utf-8";
+*{
+	margin:0px;
+}
+body{ font-family:Arial, Helvetica, sans-seriff; background:#FFF; margin:0px;}
+.m30_auto{ margin:0px auto;}
+.clearfix{ clear:both;}
+@media (max-width:767px){
+
+    img{width:50px; height:50px;margin-top: 5px;}
+    .header-left{width:50px;display:inline-block;margin-left: 10px;vertical-align: middle;}
+    .header-right{width:auto; float :right;margin:10px;margin-top: 0px;}
+    .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
+    .header-right{width:100px; float:right ;}
+}
+
+@media (max-width:692px){
+    .footer-parts{ width:30%;margin-top: 10px;margin-bottom: 15px;display:inline-flex;padding:0px 15px;}
+
+    img{display:none;}
+    .header-right{width:100%;justify-content: center;}
+    .header-right ul li a {list-style:none; font-family:arial; font-size:10px; font-weight:bold;text-align: center;}
+}
+
+
+
+/*********** Start Menu **********/
+
+.header{width:100%; float:left; background:#ffffff;}
+.header-left{ width:auto; vertical-align: middle;display: inline-block;}
+.header-right{ 	width:auto; float:right;vertical-align: middle;margin-top: 2%;}
+.header-right ul{list-style:none;}
+.header-right ul li{
+    
+	list-style:none; font-family:arial; font-size:14px; padding:5px 0px 15px 0px; 
+	float:left; font-weight:bold;text-align: center;
+}
+.header-right ul li a{ padding:5px 30px 10px; margin:1px 0px 5px; text-decoration:none; color:black;}
+.header-right ul li a:hover{ color:#0099dd;}
+/*********** End Menu **********/
+	
+/************* Start Banner *************/
+.banner{ width:100%; background:url(../Resources/banner.png) no-repeat center center; height:293px;display: flex;margin: auto;}
+
+
+/************** End Banner *************/
+
+/*************** Start Content *****************/	
+.content{ width:100%; height:auto; padding-bottom:20px; margin:auto;}
+.content-left{ width:40%;  text-align:justify;margin-top: 15px; vertical-align: center;padding-top: 1.5%; line-height:24px;}
+.content-right{ width:40%; height:auto; flex:1; display:flex; margin-left:3%;}
+.content-header{color:#000; font-size:26px; text-align:center; padding:25px 10px 15px;}
+.content-header a{ color:#0099dd; text-decoration:none;}
+.content-header a:hover{ color:#069;}
+
+.content-bottom-boxes{ width:350px; padding:15px 20px; color:#000; flex-direction:column; display:flex;}
+.content-bottom-bg{ background:#ebebeb; padding:20px 15px;}
+.content-bottom-bg-header{ text-align:center;font-size:18px; padding-bottom:15px;}
+.content-bottom-bg-p{ text-align:center; line-height:24px;}
+/************ End Content **************/
+
+/************ Start Testimonials ************/
+.testimonials{ width:100%;display:flex;margin: auto; background:url(../Resources/testimonials-bg.jpg) no-repeat center center; height:309px; float:left; }
+.testimonials-h4{ margin: auto;font-size:22px; padding:80px 100px; color:#FFF; text-align:center;}
+.testimonials a{ color:#CCC; font-size:18px; padding:20px 0px; text-align:center; text-decoration:none;}
+.testimonials a:hover{ color:#FFF;}
+/************ End Testimonials ************/
+
+/************ Start Footer *****************/
+#footer{ width:100%; float:left;text-align: center; background:#CCC;}
+.footer-parts{ width:30%;margin-top: 10px;margin-bottom: 15px;float:left;padding:0px 15px;}
+.footer-parts-h4{ font-size:22px; padding:15px 10px 0px;}
+.footer-parts ul{list-style:none; padding:0px;}
+.footer-parts ul li{list-style:none; font-size:12px; padding:5px; margin:5px 0px; font-weight:bold;}
+.footer-parts ul li a{padding:8px 10px; margin:2px 0px; text-decoration:none; color:#000;}
+.footer-parts ul li a:hover{color:#FFF;}
+.copyrights{ width:96%; font-size:18px; background:#0099dd; float:left; padding:15px 30px 15px 30px; color:#FFF; text-align: center;}
+.copyrights-left{ width:50%; float:left;}
+.copyrights-left a{ color:#FFF; text-decoration:none;}
+.copyrights-left a:hover{color:#CCC;}
+.copyrights-right{ width:50%; float:right;}
+.copyrights-right a{ color:#FFF; text-decoration:none;}
+.copyrights-right a:hover{color:#CCC;}
+/*************** End Footer ***********/
